@@ -1,0 +1,34 @@
+.accordion-button {
+    font-size: 2.5rem;
+    font-weight: 400;
+    background-color:#20c997;
+    color: white;
+    text-align: center;
+}
+
+.accordion-body {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #333;
+}
+
+#productos {
+    background-color: f6f6f6;
+}
+
+.section-header {
+    font-size: 4rem;
+}
+
+.mas-info {
+    color: #00bfe8
+}
+
+/* .salud-fila-bg {
+    background-color: #e0eff9;    
+}
+
+.anti-fila-bg {
+    background-color: #d6f0ef;    
+} */
+
