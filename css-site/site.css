@@ -24,38 +24,43 @@
     color: #00bfe8
 }
 
-/* .salud-fila-bg {
-    background-color: #e0eff9;    
+.shorties {
+    padding: 3rem !important
 }
 
-.anti-fila-bg {
-    background-color: #d6f0ef;    
-} */
-
-.slide-header-title {
-    font-size: 4.5rem;
+.prod-fix {
+    position: relative; 
+    top: -80px; 
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
 }
-.slide-header-subtitle {
-    font-size: 2.5rem;
-}
-.carousel-header-padding {
-    padding-left:35%
-  }
 
-@media (width <= 800px) {
-    .carousel-header-padding {
-      padding-left:10%
+
+
+@media (width <= 940px) {
+    .accordion-button {
+        font-size: 1.5rem;
+        font-weight: 400;
+        background-color:#20c997;
+        color: white;
+        text-align: center;
     }
-    .slide-header-title {
-        font-size: 3rem;
-        line-height: 1
+    
+    .accordion-body {
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: #333;
     }
-    .slide-header-subtitle {
+    .shorties {
+        padding: .50rem 3rem !important;
+    }
+    .prod-fix {
+        position: relative; 
+        top: 0px;         
+        text-align: center;
         font-size: 2rem;
-    }
-    .phone-no-margin-fix {
-        margin-left:0
-
+        font-weight: 400;
     }
 
   }

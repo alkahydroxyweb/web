@@ -97,7 +97,7 @@ body {
     padding-left:35%
 }
 
-  @media (width <= 800px) {
+  @media (width <= 950px) {
     .carousel-header-padding {
         padding-left:10%
       }
