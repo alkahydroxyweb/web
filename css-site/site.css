@@ -32,3 +32,30 @@
     background-color: #d6f0ef;    
 } */
 
+.slide-header-title {
+    font-size: 4.5rem;
+}
+.slide-header-subtitle {
+    font-size: 2.5rem;
+}
+.carousel-header-padding {
+    padding-left:35%
+  }
+
+@media (width <= 800px) {
+    .carousel-header-padding {
+      padding-left:10%
+    }
+    .slide-header-title {
+        font-size: 3rem;
+        line-height: 1
+    }
+    .slide-header-subtitle {
+        font-size: 2rem;
+    }
+    .phone-no-margin-fix {
+        margin-left:0
+
+    }
+
+  }

@@ -63,36 +63,6 @@ body {
   }
   
 
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  
-  
-  /* Featurettes
-  ------------------------- */
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-  }
   
   
   /* RESPONSIVE CSS
@@ -117,3 +87,44 @@ body {
     }
   }
   
+  .slide-header-title {
+    font-size: 4.5rem;
+}
+.slide-header-subtitle {
+    font-size: 2.5rem;
+}
+.carousel-header-padding {
+    padding-left:35%
+}
+
+  @media (width <= 800px) {
+    .carousel-header-padding {
+        padding-left:10%
+      }
+    .phone-no-margin-fix {
+          margin-left:0
+
+      }
+    h1.slide-header {
+      font-weight: 300;
+      font-size: 3rem;
+      color: black;
+    }
+    
+    h2.slide-header {
+      font-weight: 100;
+      font-size: 2rem;
+      color: black;
+    }
+  
+    h3.slide-header {
+      font-weight: 200;
+      font-size: 1rem;
+      color: darkgreen;
+    }
+
+    .carousel-item-fix > img {
+      left: -680px;
+      opacity: .8;
+      background-color:#fff;
+  }
