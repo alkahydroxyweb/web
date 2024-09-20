@@ -36,9 +36,58 @@
     font-weight: 400;
 }
 
+.youtube-iframe {
+    width: 950px;
+    height: 509px
+}
 
+.banners-top-margins {
+    margin-top: .3rem;
+}
 
-@media (width <= 940px) {
+.font-alert {
+    font-size: 3rem;
+}
+
+.font-alert {
+    font-size: 3.5rem;
+}
+
+.accordion-padding {
+    padding: 2rem 1rem
+}
+
+.alert-phone {
+    display: none
+}
+
+.compra-directa-fix {
+    text-align: left
+}
+.compra-dir-img-fix {
+
+}
+
+.beneficios-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.beneficios-text {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.salud-img-2 {
+    display: none;
+}
+
+.salud-img {
+    display: block;
+}
+@media (width <= 749px) {
     .accordion-button {
         font-size: 1.5rem;
         font-weight: 400;
@@ -63,4 +112,71 @@
         font-weight: 400;
     }
 
-  }
+    .carousel {
+        display: none
+    }
+
+    .col-phone-0-fix {
+        width: 2px;
+    }
+
+    .youtube-iframe {
+        width: 406px;
+        height: 218px
+    }
+    
+    .banners-top-margins {
+        margin-top: .25rem;
+    }
+
+    .font-alert {
+        font-size: .8rem;
+    }
+
+    .font-alert2 {
+        font-size: 1rem;
+    }
+
+    .accordion-container {
+        display: none;
+    }
+
+    .accordion-padding {
+        padding: .25rem 1rem
+    }
+
+    .alert-screen {
+        display: none
+    }
+
+    .compra-directa-fix {
+        text-align: center;
+        padding-bottom: 1.5rem;
+    } 
+
+    .compra-dir-img-fix {
+        height: 70px;
+        padding-bottom: 1rem;
+    }
+
+    .beneficios-title {
+        font-size: 2.25rem;
+        font-weight: 200;
+        line-height: 1.5rem;
+    }
+
+    .beneficios-text {
+        font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 1.3rem;
+    }
+    .salud-img {
+        display: none;
+    }
+    .salud-img-2 {
+        display: block;
+    }
+    .alig-center-fix {
+        text-align: center;
+    }
+}
